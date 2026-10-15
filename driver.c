@@ -11,6 +11,6 @@ int main(void) {
 	head = add(head, "matt");
 	head = add(head, "sumita");
 	head = add(head, "james");
-	head->next->loginTime += 60;
+	head->next->hash.hash0 ^= 1;
 	verify(head);
 } 
