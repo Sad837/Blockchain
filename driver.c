@@ -11,6 +11,6 @@ int main(void) {
 	head = add(head, "matt");
 	head = add(head, "sumita");
 	head = add(head, "james");
-	head->next->Username[0] = 'X';
+	head->next->loginTime += 60;
 	verify(head);
-}
+} 
