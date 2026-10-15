@@ -11,6 +11,6 @@ int main(void) {
 	head = add(head, "matt");
 	head = add(head, "sumita");
 	head = add(head, "james");
-	head->next->hash.hash0 ^= 1;
+	head->next->next = head->next->next->next;
 	verify(head);
 } 
