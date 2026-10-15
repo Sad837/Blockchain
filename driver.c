@@ -4,12 +4,13 @@
 
 
 int main(void) {
-	struct user * head=NULL;
+	struct User * head=NULL;
 	head = add(head, "rob");
 	head = add(head, "hanif");
 	head = add(head, "gahyun");
 	head = add(head, "matt");
 	head = add(head, "sumita");
 	head = add(head, "james");
+	head->next->Username[0] = 'X';
 	verify(head);
 }
