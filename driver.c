@@ -11,6 +11,5 @@ int main(void) {
 	head = add(head, "matt");
 	head = add(head, "sumita");
 	head = add(head, "james");
-	head->next->next = head->next->next->next;
 	verify(head);
 } 
